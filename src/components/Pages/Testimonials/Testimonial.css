@@ -1,0 +1,63 @@
+.page3 {
+    margin-top: 7rem;
+    display: flex;
+    margin-left: 4rem;
+    justify-content: space-between;
+}
+
+.para {
+    background-color: #f8f8f8;
+    border-left: 3px solid #63B178;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 500;
+    width: 400px;
+}
+
+.testimonial h1 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    /* Adjust as needed */
+}
+
+.testimonial h1::after {
+    content: '';
+    position: absolute;
+    right: 20%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 50%;
+    /* Adjust as needed */
+    border-bottom: 4px solid #63B178;
+}
+
+.lorry-img {
+    width: 300px;
+    margin-right: 200px;
+    border-bottom: 1px solid;
+    display: inline;
+}
+
+.testi{
+    background-color:#f2faf5;
+    margin-right: 6rem;
+}
+
+.testi img{
+display: inline;
+}
+
+.shortened-paragraph {
+    width: 55%;
+    margin: 0 0;
+    margin-bottom: 2rem;
+}
+
+.testi b{
+    padding: 1rem;
+}
+
+.testi small{
+    padding: 1rem;
+}

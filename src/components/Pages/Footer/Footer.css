@@ -1,0 +1,15 @@
+.footer1{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: #f2faf5;
+    padding: 4rem;
+}
+
+.p1{
+    color:#63B178 ;
+}

@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content:space-between;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: flex-start;
+}
+
+.home{
+    margin-left: 4rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:40% ;
+    height: 100%;
+    border-radius: 13px;
+    background-color: #f8f8f8;
+}
+.about{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    margin-top: 1rem;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+.truck_img {
+    width: 292px;
+    height: 219px;
+}
+
+.home-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+}
+
+.home-title p{
+    font-weight: 600;
+    color: #63B178;
+    tab-size: 4;
+    max-width: 20rem;
+    margin-top: 1rem;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    max-width: 20rem;
+}
+
+.about-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.about-title{
+    padding-top: 120px;
+}
+.about-title p{
+    color: #63B178;
+}
+
+.about-title h1{
+    font-size: 20px;
+}
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.feat {
+    border-radius: 10px;
+    width: 18rem;
+    background-color:#f2faf5;
+}
+
+.feat h5{
+    color:#63B178;
+}
+

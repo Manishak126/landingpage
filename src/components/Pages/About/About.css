@@ -1,0 +1,41 @@
+.page2{
+    margin-top: 3rem;
+    display: flex;
+    margin-left: 4rem;
+    justify-content: space-between;
+}
+
+.process p{
+    background-color:#f8f8f8 ;
+    border-left: 3px solid #63B178;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 500;
+}
+
+/* .process h1{
+    border-bottom: 4px solid #63B178;
+} */
+
+.process h1 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    /* Adjust as needed */
+}
+
+.process h1::after {
+    content: '';
+    position: absolute;
+    right: 20%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 50%;
+    /* Adjust as needed */
+    border-bottom: 4px solid #63B178;
+}
+
+.bus-img{
+    width: 400px;
+    margin-right: 200px;
+}
